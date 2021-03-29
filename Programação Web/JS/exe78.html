@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercício 78</title>
+  </head>
+
+  <body>
+    <p><a id="link" href="http://www.google.com.br">Texto</a></p>
+    <button onclick="diminuirFonte()">Diminuir Fonte</button>
+    <button onclick="aumentaFonte()">Aumentar Fonte</button>
+    <button onclick="voltaPadrao()">Fonte Padrão</button>
+    <button onclick="alteraYahoo()">Yahoo HREF</button>
+    <button onclick="alteraGoogle()">Google HREF</button>
+    
+    <script>
+      function aumentaFonte() {
+        document.documentElement.style.fontSize = "30px";
+      }
+
+      function diminuirFonte() {
+        document.documentElement.style.fontSize = "10px";
+      }
+
+      function voltaPadrao() {
+        document.documentElement.style.fontSize = "16px";
+      }
+
+      function alteraYahoo() {
+        var yaLink = document.getElementById("link");
+        yaLink.href = "http://www.yahoo.com.br";
+      }
+
+      function alteraGoogle() {
+        var goLink = document.getElementById("link");
+        goLink.href = "http://www.google.com.br";
+      }
+    </script>
+  </body>
+</html>

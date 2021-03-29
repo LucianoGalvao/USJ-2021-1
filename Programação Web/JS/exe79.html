@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exercício 79</title>
+  </head>
+  <body>
+    <input type="text" id="nomeId" placeholder="Digite seu nome" />
+    <button onclick="passaNome()">Olá</button>
+    <div id="divId"></div>
+
+    <script>
+      function passaNome() {
+        var inputNome = document.getElementById("nomeId");
+        var nome = inputNome.value;
+        var frase = (document.getElementById(
+          "divId"
+        ).innerText = `Olá, ${nome}.`);
+      }
+    </script>
+  </body>
+</html>

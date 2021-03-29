@@ -1,0 +1,79 @@
+body, html {
+    font-family: 'Source Serif Pro', serif;
+    height: 100%;
+}
+.container {
+    background-image: url('./images/water.png');
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    color: #56aef7;
+    margin-bottom: 1px;
+}
+.subtitle {
+    font-size: 32px;
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+    color: #56aef7;
+}
+.title-2 {
+    font-size: 24px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: left;
+    color: rgba(29, 29, 29, 0.795);
+    margin-top: 50px;
+}
+p {
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 15px;
+    margin-right: 25px;
+}
+.btn {
+    color:#ffffff;
+    font-size: 18px;
+    background-color: #56aef7;
+    padding: 7px;
+    font-style: italic;
+    border-radius: 5px;   
+}
+.btn:hover{
+    color: #56aef7;
+    background-color: #cee6e7;
+    text-decoration: none; 
+}
+a {
+    color:#ffffff;
+    font-size: 18px;
+    background-color: #56aef7;
+    padding: 7px;
+    font-style: italic;
+    border-radius: 5px;   
+}
+a:hover{
+    color: #56aef7;
+    background-color: #cee6e7;
+    text-decoration: none; 
+}
+footer {
+    background-color: #56aef7;
+    margin-top: -20px;
+    border-radius: 3px;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+ul {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
