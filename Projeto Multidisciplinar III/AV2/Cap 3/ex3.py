@@ -49,6 +49,6 @@ while pontuacao != "fim":
         else:
             print("Pontuação Inválida")
         pontuacao = input("Informe a pontuação (Entre 0.0 e 1.0): ")
-    except:
+    except ValueError:
         print("Pontuação Inválida")
         pontuacao = input("Informe a pontuação (Entre 0.0 e 1.0): ")
